@@ -70,7 +70,6 @@ A *Message* consists of:
     /exit: Exits the chat application.
 
 ## Running the Application
-1. **Compile:** Compile the Java files using `javac`.
-2. **Start the Main Server:** Run `MainServer.java`.
-3. **Start the Client:** Run `Client.java`.
-4. **Create or Join a Chat:** Follow the prompts to create or join a chat room.
+1. **Compile:** Compile the Java files using `gradle build`.
+2. **Start the Main Server:** Run `gradle runServer`.
+3. **Start the Client:** Run `gradle runClient`.
