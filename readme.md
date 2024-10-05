@@ -57,14 +57,13 @@ A *Message* consists of:
    - The server accepts or rejects the nickname (NAME_ACCEPTED or ERROR).
 2. **Messaging and Commands:**
    - Clients can send text messages (TEXT) or commands (COMMAND).
-   - Commands include /rename, /switch, /list, /help, and /exit.
+   - Commands include /rename, /list, /help, and /exit.
 3. Broadcasting Messages:
     - The server broadcasts messages and notifications to all connected clients.
     - Includes user join/leave notifications (USER_ADDED, USER_REMOVED).
 
 ## Command Handling
     /rename [new_name]: Changes the user's nickname.
-    /switch: Allows the user to switch to another chat room.
     /list: Lists all users in the current chat room.
     /help: Displays available commands.
     /exit: Exits the chat application.
