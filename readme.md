@@ -70,5 +70,5 @@ A *Message* consists of:
 
 ## Running the Application
 1. **Compile:** Compile the Java files using `gradle build`.
-2. **Start the Main Server:** Run `gradle runServer`.
-3. **Start the Client:** Run `gradle runClient`.
+2. **Start the Main Server:** Run `gradle runServer --console=plain`.
+3. **Start the Client:** Run `gradle runClient --console=plain`.
